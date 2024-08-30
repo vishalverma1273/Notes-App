@@ -1,0 +1,67 @@
+.App {
+  width: 100%;
+}
+
+input {
+  height: 9vh;
+  width: 40vw;
+  background: #fffdd0;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0cap;
+}
+
+.inputcontainer {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.icon {
+  cursor: pointer;
+}
+
+.box {
+  width: 12vw;
+  margin: 12px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
+
+  background: #fffdd0;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.dateicon {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.date {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 455px) {
+  input {
+    width: 92vw;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box {
+    width: 90vw;
+    margin: 8px auto;
+  }
+}
